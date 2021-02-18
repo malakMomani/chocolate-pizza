@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width:900px;
+    margin-top: 30px;
+}
+
+.logo-text {
+    
+    font-family: "Yellowtail", cursive;
+    font-size: 38.4px;
+}
+
+.logo-style {
+    float : left;
+
+}
+
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    float : right;
+    margin-right: 2px;
+}
