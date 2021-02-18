@@ -6,52 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chocolate Pizza</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <img src="" alt="">
+        <div>
+            <img src="lab-a/lab-assets/logo.png" alt="main logo">
+        </div>
+        <div>
+            <h1>Delicious</h1>
+            <p>
+                The Best food Blog On The Web
+            </p>
+        </div>
+        <div class="seperator"></div>
         <nav>
             <ul>
                 <li>
-                    <img src="" alt="">
+                    <img src="lab-a/lab-assets/fb-icon.png" alt="">
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="lab-a/lab-assets/twit-icon.png" alt="">
                 </li>
 
                 <li>
-                    <img src="" alt="">
+                    <img src="lab-a/lab-assets/gp-icon.png" alt="">
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="lab-a/lab-assets/insta-icon.png" alt="">
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="lab-a/lab-assets/flic-icon.png" alt="">
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="lab-a/lab-assets/pint-icon.png" alt="">
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="lab-a/lab-assets/rss-icon.png" alt="">
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="lab-a/lab-assets/mail-icon.png" alt="">
                 </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section class="title">
             <h1>Chocolate Pizza</h1>
             <p>POSTED ON 15 DEC 2013 / DESSERTS </p>
-            <p>PRINT</p>
+            <p>
+                <img src="lab-a/lab-assets/print-icon.png" alt="">
+                "&nbsp;PRINT"
+            </p>
         </section>
-        <section>
-            <img src="" alt="">
+        <section class="main-img">
+            <img src="lab-a/lab-assets/choco-pizza.png" alt="">
         </section>
-        <section>
+        <section class="texts">
             <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve.
                 Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat,
                 stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside
@@ -67,9 +80,9 @@
                 tupperware. Freeze for at least two hours before serving.</p>
         </section>
 
-        <section>
+        <section class="ingerdiants clearfix">
             <img src="" alt="">
-            <ul>
+            <ul class="ingerdiants">
                 <li>
                     <input type="checkbox" name="cb1" id="cb1">
                     <label for="cb1">1 1/2 cups milk</label>
@@ -83,48 +96,63 @@
                     <input type="checkbox" name="cb3" id="cb3">
                     <label for="cb3">1/2 cup mascarpone</label>
                 </li>
-                
+
                 <li>
                     <input type="checkbox" name="cb4" id="cb4">
-                    <label for="cb4"></label>
+                    <label for="cb4">1/3 granulated sugar</label>
                 </li>
-                <li> 
+                <li>
                     <input type="checkbox" name="cb5" id="cb5">
-                    <label for="cb5">1 lb Black Mission Figs</label>
+                    <label for="cb5">1/2 tsp pink salt</label>
                 </li>
-                <li> 
+                <li>
                     <input type="checkbox" name="cb6" id="cb6">
-                    <label for="cb6">1 1/2 cups milk</label>
+                    <label for="cb6">2 egg yolks</label>
                 </li>
-                
+
                 <li>
                     <input type="checkbox" name="cb7" id="cb7">
-                    <label for="cb7">1 1/2 cups milk</label>
+                    <label for="cb7">1 lb Black Mission Figs</label>
                 </li>
                 <li>
                     <input type="checkbox" name="cb8" id="cb8">
-                    <label for="cb8">1 1/2 cups milk</label>
+                    <label for="cb8">1 lemon, juiced</label>
                 </li>
                 <li>
                     <input type="checkbox" name="cb9" id="cb9">
-                    <label for="cb9">1 1/2 cups milk</label>
+                    <label for="cb9">1/2 cup brown sugar</label>
                 </li>
                 <li>
-                    <input type="checkbox" name="cb1" id="cb1">
-                    <label for="cb1">1 1/2 cups milk</label>
+                    <input type="checkbox" name="cb10" id="cb10">
+                    <label for="cb10">2 tbsp butter</label>
                 </li>
                 <li>
-                    <input type="checkbox" name="cb1" id="cb1">
-                    <label for="cb1">1 1/2 cups milk</label>
+                    <input type="checkbox" name="cb11" id="cb11">
+                    <label for="cb11">2 tbsp butter</label>
                 </li>
                 <li>
-                    <input type="checkbox" name="cb1" id="cb1">
-                    <label for="cb1">1 1/2 cups milk</label>
+                    <input type="checkbox" name="cb12" id="cb12">
+                    <label for="cb12">1 cup honey roasted pecans, roughly chopped</label>
                 </li>
             </ul>
+            <div class="seperator"></div>
+        </section>
+
+        <section>
+            <div>
+                <img src="lab-a/lab-assets/van-pic.png" alt="">
+                <strong>Vanessa Stevenson</strong>
+                <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+            </div>
+            <input type="button" value="Share Recipe" class ="shareBtn">
         </section>
     </main>
 
+    <footer>
+        <img src="lab-a/lab-assets/small-logo.png" alt="">
+        <p>Delicious © 2013 - All Rights Reserved.</p>
+        <p>Proudly published with Ghost.</p>
+    </footer>
 </body>
 
 </html>
